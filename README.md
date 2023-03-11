@@ -1,8 +1,8 @@
 # Magic Monitor
 
-The purpose of this script is to take video / data input from consoles via third party USB device.
+The purpose of this script is to take video / data input from consoles via third-party USB device.
 
-You can download to play right away or add it to your own project.
+You can download to play right away or add it to your project.
 
 You can test it on my website: https://joeworkbench.net/MagicMonitor
 
@@ -10,9 +10,9 @@ You can test it on my website: https://joeworkbench.net/MagicMonitor
 
 All you really need is `MagicMonitor.html`. You can download and launch it on your favorite browser.
 
-Go into your `Browser Settings` and search for `Webcam` and `Microphone`
+Go into your `Browser Settings` and search for `Webcam` and `Microphone`.
 
-Set the `Default` device to your `Usb Device` connected from your `console` and to your `PC`.
+Set the `Default` device to your `Usb Device` connected from your console and to your `PC`.
 
 Depending on the distance to your console, an `hdmi/dp repeater` might be necessary.
 
@@ -46,18 +46,20 @@ An `hdmi splitter` will be necessary if you wish to use a `TV` as well.
 - To add it to your JS import add:
 
 ---HTML---
+
 <!-- Head -->
 <script type="module" src="./JS/MagicMonitor.js"></script>
 <!-- Elsewhere -->
 <div id="container">
   <video autoplay="true" id="videoElement"></video>
 </div>
------------
+
+
 
 ---JS---
 // Near top
 import MagicMonitor from './MagicMonitor.js';
------------
+
 
 - See my code for examples using the methods.
 - I have also included an optional Basic CSS class to make it look decent if you're ok with the sizing.
