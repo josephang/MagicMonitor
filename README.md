@@ -55,9 +55,24 @@ In your JavaScript:
 import MagicMonitor from './MagicMonitor.js';
 ```
 
-- See my code for examples using the methods.
+- See my code `testMagicMonitor.js`for examples using the methods.
 - I have also included an optional Basic CSS class `MM.css` to make it look decent if you're ok with the sizing.
 
+The File Structure is:
+```bash
+  index.html (testMagicMonitor)
+  |
+  |--JS/
+  |   |
+  |   |--MagicMonitor.js
+  |
+  |
+  |--CSS/
+  |   |
+  |   |--MM.CSS
+  |
+  |
+```
 ## Contributing
 
 Contributions are welcome! I currently do not have a [contribution guidelines](CONTRIBUTING.md) link for more information.
