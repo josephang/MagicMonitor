@@ -1,7 +1,7 @@
 # Magic Monitor
 
 - The purpose of this script is to take video / data input from consoles via third-party `HDMI / DP` to `USB Device`.
-- It's for people with a game console that wants to use their high performance monitor rather than TV while also using monitor as PC monitor.
+- It's for people with a `game console` that want to use their `high performance monitor` rather than `TV` while also using `monitor` as `PC monitor`.
 - You can download to play right away or add it to your project.
 - You can test it on my website: https://joeworkbench.net/MagicMonitor
 
