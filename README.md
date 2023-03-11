@@ -10,7 +10,9 @@ You can test it on my website: https://joeworkbench.net/MagicMonitor
 
 All you really need is `MagicMonitor.html`. You can download and launch it on your favorite browser.
 
-Set your Default `Webcam` and `Microphone` to your 'Usb Device'.
+Go into your  `Browser Settings` and search for `Webcam` and `Microphone` 
+
+Set the `Default` device to `Usb Device`.
 
 Depending on the distance to your console, a repeater might be necessary. 
 
