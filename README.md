@@ -40,6 +40,7 @@
 - I have made `MagicMonitor.js` which has all the methods you need.
 - To add it to your JS import add:
 
+In your HTML:
 ```HTML
 <script type="module" src="./JS/MagicMonitor.js"></script>
 
@@ -48,6 +49,7 @@
 </div>
 ```
 
+In your JavaScript:
 ```javascript
 
 import MagicMonitor from './MagicMonitor.js'; //Near top;
