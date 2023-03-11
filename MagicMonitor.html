@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>Joseph's Magic Monitor</title>
+<!-- Page Styling -->
+        <style>
+            #container 
+            {
+                margin: 0px auto;
+                width: 100%;
+                height: 100%;
+                border: 10px #333 solid;
+            }
+            #videoElement 
+            {
+                width: 100%;
+                height: 100%;
+                background-color: #000000;
+            }
+            body{
+                background-color: #000000;
+            }
+        </style>
+<!-- Video / Audio Streaming -->
+        <script>
+            var hdConstraints = 
+            {
+                mandatory: {
+                    minWidth: 1920,
+                    minHeight: 1080
+                            }
+            }
+            if (navigator.mediaDevices.getUserMedia) 
+            {
+                navigator.mediaDevices.getUserMedia({video: hdConstraints, audio: true})
+                    .then(function (stream) 
+                    {
+                        document.querySelector("#videoElement").srcObject = stream;
+                    });
+            }
+        </script>
+<!-- End of On- Load -->
+    </head>
+<!-- Page Building -->
+    <body>
+        <div id="container">
+            <video autoplay="true" id="videoElement">  
+            </video>
+        </div>
+    </body>
+</html>
