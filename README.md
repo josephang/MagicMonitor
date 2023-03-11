@@ -10,7 +10,11 @@ You can test it on my website: https://joeworkbench.net/MagicMonitor
 
 All you really need is `MagicMonitor.html`. You can download and launch it on your favorite browser.
 
-Set your Default webcam and Microphone to your usb device.
+Set your Default `Webcam` and `Microphone` to your 'Usb Device'.
+
+Depending on the distance to your console, a repeater might be necessary. 
+
+A splitter will be necesary if you wish to use a TV as well.
 
 ## Features
 
