@@ -1,4 +1,4 @@
-import MagicMonitor from './JS/MagicMonitor.js';
+import MagicMonitor from './MagicMonitor.js';
 
 // create a new MagicMonitor instance
 const magicMonitor = new MagicMonitor();
