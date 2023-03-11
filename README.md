@@ -26,9 +26,32 @@
 
 ## Installation
 
-1. Clone the repository.
+- To install for Users:
+1. Download `MagicMonitor.html` from above.
 2. Open the `MagicMonitor.html` file in your preferred browser.
 3. Connect your USB device for console input.
+
+- To install Standalone for Developers
+1. Clone the repository
+2. `mv MagicMonitor/CodeSplitting/testMagicMonitor MagicMonitor/index.html`
+3. `mv MagicMonitor/JS/testMagicMonitor MagicMonitor/JS/main.js`
+4. `rm MagicMonitor.html README.md` -(optional, but recommended)
+5. In your new `index.html`
+
+  - Locate
+  ```HTML
+      <link rel="stylesheet" href="./CSS/MM.css">
+      <script type="module" src="./JS/MagicMonitor.js" ></script>
+      <script type="module" src="./JS/testMagicMonitor.js" ></script>
+  ```
+
+  - Modify
+  ```HTML
+      <link rel="stylesheet" href="./CodeSplitting/CSS/MM.css">
+      <script type="module" src="./CodeSplitting/JS/MagicMonitor.js" ></script>
+      <script type="module" src="./CodeSplitting/JS/testMagicMonitor.js" ></script>
+  ```
+6. Code examples can be found below should you wish to only use `MagicMonitor.js` as a Code Snippet.
 
 ## Usage
 
