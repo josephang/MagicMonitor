@@ -10,13 +10,13 @@ You can test it on my website: https://joeworkbench.net/MagicMonitor
 
 All you really need is `MagicMonitor.html`. You can download and launch it on your favorite browser.
 
-Go into your  `Browser Settings` and search for `Webcam` and `Microphone` 
+Go into your `Browser Settings` and search for `Webcam` and `Microphone`
 
 Set the `Default` device to your `Usb Device` connected from your `console` and to your `PC`.
 
-Depending on the distance to your console, a `htmi/dp repeater` might be necessary. 
+Depending on the distance to your console, an `hdmi/dp repeater` might be necessary.
 
-A `hdmi splitter` will be necesary if you wish to use a `TV` as well.
+An `hdmi splitter` will be necessary if you wish to use a `TV` as well.
 
 ## Features
 
