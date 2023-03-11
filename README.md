@@ -64,12 +64,10 @@ The File Structure is:
   |
   |--JS/
   |   |
-  |   |--MagicMonitor.js
-  |
-  |
+  |   |--MagicMonitor.js   
   |--CSS/
   |   |
-  |   |--MM.CSS
+  |   |--MM.css
   |
   |
 ```
@@ -83,7 +81,7 @@ This project is licensed under the [Creative Commons Attribution 1.0 Internation
 
 ## Author
 
-This project was created by Joseph Ang and README.ME co-authored by ChatGPT.
+This project was created by `Joseph Ang` and `README.ME` co-authored by `OpenAI's ChatGPT`.
 
 ## $$$ Money $$$
 
