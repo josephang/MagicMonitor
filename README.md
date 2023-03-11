@@ -9,8 +9,8 @@
 
 - All you really need is `MagicMonitor.html`. You can download and launch it on your favorite browser.
 - Go into your `Browser Settings` and search for `Webcam` and `Microphone`.
-- Set the `Default` device to your `Usb Device` connected from your console and to your `PC`.
-- Depending on the distance to your console, an `hdmi/dp repeater` might be necessary.
+- Set the `Default` device to your `Usb Device` connected from your `console` and to your `PC`.
+- Depending on the distance to your `console`, an `hdmi/dp repeater` might be necessary.
 - An `hdmi splitter` will be necessary if you wish to use a `TV` as well.
 
 ## Features
@@ -56,7 +56,7 @@ import MagicMonitor from './MagicMonitor.js'; //Near top;
 ```
 
 - See my code for examples using the methods.
-- I have also included an optional Basic CSS class to make it look decent if you're ok with the sizing.
+- I have also included an optional Basic CSS class `MM.css` to make it look decent if you're ok with the sizing.
 
 ## Contributing
 
