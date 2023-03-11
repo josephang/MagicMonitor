@@ -1,10 +1,10 @@
 # Magic Monitor
 
-The purpose of this script is to take input from consoles via third party usb device.
+The purpose of this script is to take video / data input from consoles via third party usb device.
 
 ## Features
 
-- Uses a browser to render graphics
+- Uses a browser as a monitor to display game console / media connected via USB
 - Utilizes the webcam and microphone functionality native to most modern browsers
 - Can take advantage of the "media popout feature" found in some browsers
 
@@ -16,18 +16,17 @@ The purpose of this script is to take input from consoles via third party usb de
 ## Installation
 
 1. Clone the repository
-2. Open the `index.html` file in your preferred browser
+2. Open the `MagicMonitor.html` file in your preferred browser
 3. Connect your USB device for console input
 
 ## Usage
 
-1. Run the `index.html` file in your browser
-2. Follow the on-screen instructions to set up your USB device
-3. Use the console input to interact with the script
+1. Run the `MagicMonitor.html` file in your browser
+2. Follow browser instructions to set up your USB device
 
 ## Contributing
 
-Contributions are welcome! Please see the [contribution guidelines](CONTRIBUTING.md) for more information.
+Contributions are welcome! I currently do not have a [contribution guidelines](CONTRIBUTING.md) link for more information.
 
 ## License
 
@@ -35,6 +34,4 @@ This project is licensed under the [Creative Commons Attribution 1.0 Internation
 
 ## Author
 
-This project was created by Joseph Ang with formatting help and advice from ChatGPT.
-
-No code that was generated from ChatGPT is used in MagicMonitor.main
+This project was created by Joseph Ang and README.ME coauthored by ChatGPT
