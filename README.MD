@@ -33,16 +33,18 @@ All you really need is MagicMonitor.html. You can just download and launch it on
 - I have made MagicMonitor.js which has all the method you need.
 - To add it to your JS imp add:
 
-		HTML
-	 --head--
+---HTML		HTML
+         <--head-->
 <script type="module" src="./JS/MagicMonitor.js" ></script>
-	 ---elsewhere---
+	<--elsewhere-->
 	<div id="container">
             <video autoplay="true" id="videoElement"></video>
         </div>
-		JS
+---
+---JS		JS
+//near top
 import MagicMonitor from './MagicMonitor.js';
-
+---
 - See my code for examples using the methods.
 
 - I have also inlcuded an optional Basic CSS class to make it look decent if you're ok with the sizing.
