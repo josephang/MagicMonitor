@@ -2,6 +2,8 @@
 
 The purpose of this script is to take video / data input from consoles via third party usb device.
 
+You can test it on my website https://joeworkbench.net/MagicMonitor
+
 ## Features
 
 - Uses a browser as a monitor to display game console / media connected via USB
