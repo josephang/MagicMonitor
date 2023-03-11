@@ -4,6 +4,9 @@ The purpose of this script is to take video / data input from consoles via third
 
 You can test it on my website https://joeworkbench.net/MagicMonitor
 
+## For Those in a Hurry
+All you really need is MagicMonitor.html. You can just download and launch it on your favorite browser.
+
 ## Features
 
 - Uses a browser as a monitor to display game console / media connected via USB
@@ -24,7 +27,25 @@ You can test it on my website https://joeworkbench.net/MagicMonitor
 ## Usage
 
 1. Run the `MagicMonitor.html` file in your browser
-2. Follow browser instructions to set up your USB device
+2. Follow browser instructions to set your USB device as default for both webcam and mic
+
+## For Developers
+- I have made MagicMonitor.js which has all the method you need.
+- To add it to your JS imp add:
+
+		HTML
+	 --head--
+<script type="module" src="./JS/MagicMonitor.js" ></script>
+	 ---elsewhere---
+	<div id="container">
+            <video autoplay="true" id="videoElement"></video>
+        </div>
+		JS
+import MagicMonitor from './MagicMonitor.js';
+
+- See my code for examples using the methods.
+
+- I have also inlcuded an optional Basic CSS class to make it look decent if you're ok with the sizing.
 
 ## Contributing
 
@@ -37,3 +58,7 @@ This project is licensed under the [Creative Commons Attribution 1.0 Internation
 ## Author
 
 This project was created by Joseph Ang and README.ME coauthored by ChatGPT
+
+## $$$ Money $$$
+
+Please donate to your favorite charity for me <3
