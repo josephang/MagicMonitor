@@ -9,4 +9,4 @@ console.log(magicMonitor.getVideoConstraints());
 
 // test the display() method
 const videoElement = 'myVideo';
-magicMonitor.display(videoElement);
+magicMonitor.display();
