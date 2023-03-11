@@ -52,7 +52,7 @@ In your HTML:
 In your JavaScript:
 ```javascript
 
-import MagicMonitor from './MagicMonitor.js'; //Near top;
+import MagicMonitor from './MagicMonitor.js';
 ```
 
 - See my code for examples using the methods.
