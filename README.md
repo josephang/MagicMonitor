@@ -45,18 +45,17 @@ An `hdmi splitter` will be necessary if you wish to use a `TV` as well.
 - I have made `MagicMonitor.js` which has all the methods you need.
 - To add it to your JS import add:
 
----HTML---
+              HTML
 
 <!-- Head -->
 <script type="module" src="./JS/MagicMonitor.js"></script>
+
 <!-- Elsewhere -->
 <div id="container">
   <video autoplay="true" id="videoElement"></video>
 </div>
 
-
-
----JS---
+            Javascript
 // Near top
 import MagicMonitor from './MagicMonitor.js';
 
