@@ -1,22 +1,17 @@
 # Magic Monitor
 
-The purpose of this script is to take video / data input from consoles via third-party USB device.
-
-You can download to play right away or add it to your project.
-
-You can test it on my website: https://joeworkbench.net/MagicMonitor
+- The purpose of this script is to take video / data input from consoles via third-party `HDMI / DP` to `USB Device`.
+- It's for people with a game console that wants to use their high performance monitor rather than TV while also using monitor as PC monitor.
+- You can download to play right away or add it to your project.
+- You can test it on my website: https://joeworkbench.net/MagicMonitor
 
 ## For Those in a Hurry
 
-All you really need is `MagicMonitor.html`. You can download and launch it on your favorite browser.
-
-Go into your `Browser Settings` and search for `Webcam` and `Microphone`.
-
-Set the `Default` device to your `Usb Device` connected from your console and to your `PC`.
-
-Depending on the distance to your console, an `hdmi/dp repeater` might be necessary.
-
-An `hdmi splitter` will be necessary if you wish to use a `TV` as well.
+- All you really need is `MagicMonitor.html`. You can download and launch it on your favorite browser.
+- Go into your `Browser Settings` and search for `Webcam` and `Microphone`.
+- Set the `Default` device to your `Usb Device` connected from your console and to your `PC`.
+- Depending on the distance to your console, an `hdmi/dp repeater` might be necessary.
+- An `hdmi splitter` will be necessary if you wish to use a `TV` as well.
 
 ## Features
 
@@ -38,25 +33,25 @@ An `hdmi splitter` will be necessary if you wish to use a `TV` as well.
 ## Usage
 
 1. Run the `MagicMonitor.html` file in your browser.
-2. Follow browser instructions to set your USB device as default for both webcam and mic.
+2. Follow browser instructions to set your `USB Device` as default for both webcam and mic.
 
 ## For Developers
 
 - I have made `MagicMonitor.js` which has all the methods you need.
 - To add it to your JS import add:
 
----HTML
+```HTML
 <script type="module" src="./JS/MagicMonitor.js"></script>
 
 <div id="container">
   <video autoplay="true" id="videoElement"></video>
 </div>
----
+```
 
----javascript
+```javascript
 
 import MagicMonitor from './MagicMonitor.js'; //Near top;
----
+```
 
 - See my code for examples using the methods.
 - I have also included an optional Basic CSS class to make it look decent if you're ok with the sizing.
